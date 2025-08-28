@@ -12,3 +12,6 @@
 - **Language:** Java
 - **Architecture:** Model-View-Controller (MVC)
 - **Front End:** JavaFX, CSS
+
+
+<img width="1440" height="900" alt="image" src="https://github.com/user-attachments/assets/1b1204df-14bc-4d1f-a949-57eb839c010a" />
