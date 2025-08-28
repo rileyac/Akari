@@ -1,0 +1,108 @@
+/**
+ * Write CSS code in this file to style your JavaFX user interface
+ *
+ * Note: You must link this file to your scene object by adding the following line of code to the
+ * JavaFX start() method:
+ *   scene.getStylesheets().add("main.css");
+ */
+
+ .button {
+    -fx-pref-width: 52px;
+    -fx-pref-height: 52px;
+    -fx-background-color: white;
+    -fx-padding: 5px;      /* Set padding inside the button */
+    -fx-border-width: 1px; /* Border width for the button */
+    -fx-border-color: black;  /* Border color */
+ }
+
+ .lit-corridor {
+         -fx-background-color: #f7f280;
+  }
+
+  .lamp {
+    -fx-padding: 5px;      /* Set padding inside the button */
+    -fx-border-width: 1px; /* Border width for the button */
+    -fx-border-color: black;  /* Border color */
+  }
+
+  .wall {
+      -fx-padding: 5px;      /* Set padding inside the button */
+      -fx-border-width: 1px; /* Border width for the button */
+      -fx-border-color: black;  /* Border color */
+      -fx-background-color: black;
+  }
+
+  .clue-cell {
+    -fx-pref-width: 52px;  /* Set the preferred width of the cell */
+    -fx-pref-height: 52px; /* Set the preferred height of the cell */
+    -fx-background-color: #6699ff;
+    -fx-padding: 5px;
+    -fx-border-width: 1px; /* Border width for the cell */
+    -fx-border-color: black; /* Border color */
+    -fx-border-style: solid;
+  }
+
+  .unsolved-clue-value {
+      -fx-pref-width: 52px;  /* Set the preferred width of the cell */
+      -fx-pref-height: 52px; /* Set the preferred height of the cell */
+      -fx-font-size: 30px;  /* Size for the clue number */
+      -fx-text-fill: #cc0000; /* Text color */
+      -fx-font-weight: bold;
+      -fx-font-family: "Assistant";
+  }
+  .solved-clue-value {
+        -fx-pref-width: 52px;  /* Set the preferred width of the cell */
+        -fx-pref-height: 52px; /* Set the preferred height of the cell */
+        -fx-font-size: 30px;  /* Size for the clue number */
+        -fx-text-fill: black; /* Text color */
+        -fx-font-weight: bold;
+        -fx-font-family: "Assistant";
+
+    }
+
+  .status-box {
+    -fx-padding: 45px;
+  }
+
+  .puzzle-number-label {
+          -fx-font-size: 45px;  /* Size for the clue number */
+          -fx-text-fill: black; /* Text color */
+          -fx-font-family: "Assistant";
+          -fx-font-weight: bold;
+          -fx-letter-spacing: 20px;
+  }
+
+  .status {
+            -fx-font-size: 45px;          /* Font size */
+            -fx-text-fill: black;         /* Font weight */
+            -fx-font-family: "Assistant"; /* Font family */
+            -fx-letter-spacing: 20px;
+            -fx-font-weight: bold;
+  }
+
+  .title-box {
+    -fx-padding: 45px;
+  }
+
+  .title-text {
+    -fx-font-size: 60px;  /* Size for the clue number */
+    -fx-text-fill: #339966; /* Text color */
+    -fx-font-family: "Assistant";
+    -fx-font-weight: bold;
+    -fx-padding: 20px;
+    -fx-letter-spacing: 20px;
+  }
+
+  .puzzle-button {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 100px;
+    -fx-background-color: #adebad;
+    -fx-padding: 5px;      /* Set padding inside the button */
+    -fx-border-width: 5px; /* Border width for the button */
+    -fx-border-color: #339966;  /* Border color */
+    -fx-font-size: 25px;
+    -fx-font-family: "Assistant";
+  }
+
+
+
