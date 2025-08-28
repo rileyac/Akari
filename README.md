@@ -1,4 +1,4 @@
-# Akari
+# Akari: COMP 301 Project
 
 **Akari** is a digital logic game that challenges players to solve puzzles using logical reasoning. The objective is to light up the entire board by placing lightbulbs, while adhering to the rules of how many lightbulbs can be places where. This project showcases a clean implementation of the Model-View-Controller (MVC) architecture in Java, with a visually appealing front end built using JavaFX and styled with CSS.
 
